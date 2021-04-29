@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link href="https://prasantkumar123.github.io/cakelib.github.io/styles.css" rel="stylesheet">
+ <link href='https://fonts.googleapis.com/css?family=Ewert' rel='stylesheet'>            
+        <script src="https://prasantkumar123.github.io/cakelib.github.io/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    </head>
+    <body onload=" cake()">
+    <script>
+        window.addEventListener("mouseover",play);
+window.addEventListener("click",play);
+function play() { document.getElementById("a").play();
+}
+    </script>
+    <style>
+        body {
+    margin:0;
+    padding:0;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGUc3D14nASsgPXajWnOYyaQYSr93aFQj_eg&usqp=CAU");
+    background-size: 100% 100%;
+   overflow: hidden;
+    background-repeat:no-repeat ;
+    height:100vh;
+    max-height:100vh;
+}
+
+.container{
+    margin:0;
+    padding:0;
+   /* background-color:red;*/
+    height:100vh;
+    width:100vw;
+    position:relative;
+    overflow:hidden;
+}
+.box1, .box2, .box3{
+    animation: slide 3s both;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+    text-align:center;
+}
+
+.box1{
+    position:absolute;
+    background:linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c );
+    height:80%;
+    width : 80%;
+    top:10%;
+    left:10%;
+    box-shadow:-0.20rem  0.50rem 2.65rem rgba(225,225,0,1); 
+    animation-delay:3s;
+    padding:10px;
+
+}
+
+
+.box2{
+    position:absolute;
+    background-color: #d3d3d3;
+background-image: linear-gradient(315deg, #d3d3d3 0%, #7f8c8d 74%);
+    height:77%;
+    width :77%;
+    top:12%;
+    left:12%;
+    animation-delay:8s;
+    padding:5px;
+
+}
+
+
+@keyframes slide{
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.face{
+    position:absolute;
+    height:25%;
+    width:50%;
+    border-radius:50%;
+    background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    z-index:1;
+    top:15%;
+    left:25%;
+    border:10px solid lightgrey;
+}
+
+.earl{
+    position:absolute;
+    border-radius:99% 12% 0% 0% / 77% 98% 0% 0% ;
+    height:20%;
+    width:15%;
+    background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    z-index:1;
+    top:10%;
+    left:25%;
+    border:10px solid lightgrey;
+    transform:rotate(-30deg);
+}
+.earr{
+    position:absolute;
+    border-radius:0% 0% 12% 99% / 0% 0% 77% 98% ;
+    height:20%;
+    width:15%;
+    background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    z-index:1;
+    top:10%;
+    left:65%;
+    border:10px solid lightgrey;
+    transform:rotate(-145deg);
+}
+
+.eyer{
+    position:absolute;
+    top:0%;
+    left:50%;
+}
+
+.eyel{
+    position:absolute;
+}
+
+.eyeball{
+    position:absolute;
+    border-radius:50%;
+    height:30px;
+    width:30px;
+    background-color:black;
+    top:40px;
+    left:25px;
+    z-index:1;
+}
+
+.eyepupil{
+    position:absolute;
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    background-color:white;
+    top:43px;
+    left:28px;
+    z-index:1;
+}
+
+
+.nose{
+    position:absolute;
+    border-radius:49% 51% 50% 50% / 21% 21% 79% 79% ;
+    height:15vmin;
+    width:20vmin;
+    background:black;
+    top:25vmin;
+    left:-20vmin;
+}
+
+.nosewhite{
+    position:absolute;
+    border-radius:50%;
+    height:5vmin;
+    width:13vmin;
+    background-color:white;
+    top:27vmin;
+    left:-17vmin;
+}
+.oval1{
+    position:absolute;
+    border-radius:50%;
+    height:45vmin;
+    width:72vmin;
+    background-color: #f1dfd1;
+
+    top:30vmin;
+    left:-45vmin;
+}
+
+.oval2{
+    position:absolute;
+    border-radius:50%;
+    height:43vmin;
+    width:63vmin;
+    background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+    top:30vmin;
+    left:-41vmin;
+}
+
+.noseline{position:absolute;
+    width:2vmin;
+    height:17vmin;
+    background-color:black;
+    top:37vmin;
+    left:-12vmin;
+}
+
+.sn1, .sn2{
+    position:absolute ; 
+    width:8vmin; 
+    height:5vmin; 
+    border:2vmin solid black;
+    border-top-color:transparent;
+    border-bottom-left-radius: 160vmin;
+     border-bottom-right-radius: 160vmin;
+      background:transparent;
+}
+.sn1{
+    top:48vmin;
+    left:-22vmin;
+}
+.sn2{
+    top:48vmin;
+    left:-12vmin;
+}
+
+.smile{
+   position:absolute ; 
+    width:18vmin; 
+    height:10vmin; 
+    border-bottom-left-radius: 160vmin;
+     border-bottom-right-radius: 160vmin;
+      background: #C6011F;
+      top:55vmin;
+      left:-20vmin;
+}
+
+.mouth{
+    position:absolute ;
+    transform:scale(0.3);
+    top:71%;
+    left:56%;
+    z-index:2;
+}
+    .teddy{
+    position:absolute;
+    height:100%;
+    width:100%;
+    transform:scale(0.7);
+    top:43%;
+}
+
+.bcake{
+    position:absolute;
+}
+
+
+
+
+
+/* For Cake */
+#bases{
+    position:absolute;
+    bottom:70vh;
+    right:10vw;
+}
+
+.b2{
+    position:relative;
+    left:21%;
+}
+.b3{
+    position:relative;
+    left:12%;
+}
+.b1{
+   position:relative;
+   left:35%;
+}
+#basePlate{
+    position:absolute;
+    top:50.5%;
+    left:28%;
+}
+#candle{
+    position:absolute;
+    top:42%;
+    z-index:100;
+    background:linear-gradient(50deg, pink, hotpink);
+}
+#flame{
+    height:4vh;
+    width:1.4vw;
+    background:linear-gradient(60deg, red, orange, yellow);
+    border-radius:50%;
+    position:absolute;
+    right:50%;
+    top:37%;
+    z-index:90;
+    animation:blow 3s infinite ease-in-out;
+    transform-origin: 25% 75%;
+    -webkit-transform-origin: 50% 100%;
+}
+@keyframes blow{
+    0%{
+        transform:rotate(10deg);
+        transform-orgin:50% 100%;
+    }
+    50%{
+        transform:rotate(-10deg);
+        transform-orgin:50% 100%;
+    }
+    100%{
+        transform:rotate(10deg);
+        transform-orgin:50% 100%;
+    }
+}
+
+
+.box3{
+   position:absolute;
+   background-color: #fec84e;
+   background-image: linear-gradient(315deg,    #fec84e 0%, #ffdea8 74%);
+    height:70%;
+    width :70%;
+    top:15%;
+    left:15%;
+    animation-delay:13s;
+    padding:10px;
+    z-index:100;
+}
+
+
+.img{
+    position:absolute;
+   left:25%;
+   border-radius:100px;
+   top:2%;
+   width:150px;
+   height:150px;
+   animation:spin 6s infinite ;
+   box-shadow:0 0px 10px  #fbf5b7, 0 0px 20px #fcf6ba, 0 0 30px  #aa771c; 
+}
+
+
+em{    
+    text-align:center;   
+    font-family: 'Ewert';  
+    font-size:25px;    
+}
+
+    </style>    
+    <audio controls style=" display:none;" loop   id="a"  >
+    <source  src=" https://www.dropbox.com/s/br7w8d6kasho1qq/Shaam%20Shaandaar%20%28Shaandaar%29%20%28RaagJatt.com%29.mp3?dl=1"> 
+   <script>
+     Swal.fire('Happy birthday Kartik Bhaiya🎊\n A small try🧗‍♀️ to express my gratitude🤗 \n It is quite simple😕 and maybe boring😥 as I am a beginner😔  ')
+        </script>  
+      </audio>
+    
+        <main class="container">
+            <div class="box1">
+           <br> Aapke JanamDin Par Hum Dete Hain Ye Duaa,<br>
+Khushiyan Aapke Daaman Se Kabhi Na Hon Juda,<br>
+Khuda Ki Rahmaton Mein Kabhi Kami Na Aaye,<br>
+Aapke Honthho Ki Ye Muskurahat Na Jaaye.<br>
+On This Special Day,<br>
+I Wish You All the Very Best,<br>
+All the Joy You Can Ever Have<br>
+And May You Be Blessed Abundantly Today,<br>
+Tomorrow and the Days To Come.<br>
+May You Have a Fantastic Birthday.            
+    <div class="teddy">
+          <div class="earl"></div> 
+           <div class="earr"></div>  
+          <div class="face">
+             <div class="eyer">
+                 <div class="eyeball"></div>
+                 <div class="eyepupil"></div>
+             </div> 
+             <div class="eyel">
+                 <div class="eyeball"></div>
+                 <div class="eyepupil"></div>
+             </div>  
+          </div> 
+          </div>
+          <div class="mouth"> 
+           <div class="oval1"></div>
+         <div class="oval2"></div>
+          <div class="nose"></div>
+          <div class="nosewhite"></div>
+          <div class="noseline"></div>
+         <div class="smile"></div>
+          <div class="sn1"></div>
+          <div class="sn2"></div>
+                </div>
+            </div>  
+            
+            
+                      
+            <div class="box2"><br>
+             You are very gifted person; in a race of two people, you would always be the first runner up. So, a very happy birthday to you, bro. May your talents keep shining like this always.   
+             <!-- cake -->
+             <div id="flame"></div>
+             <div id="cake"></div>
+             
+            </div>
+          <div class="box3">
+          <br><br><br><br><br><br><br><br><img src="https://api.sololearn.com/Uploads/Avatars/19014619.jpg" alt="" class="img">  
+        To my amazing brother👦,  Thanks for supporting🤝 me in all the ways🤗 May each wish🤞 be filled, may each goal🎯 be achieved, may each balloon🎈 counts your age🔢, and may this wish🤞 be the best😊 You are an irreplaceable💝 human👤 of my life. <br><br>
+        
+        <b><em>Happy Birthday🎊🎉 Kartik Bhaiya 🏅🏆   </em>   </b>
+            
+            
+            
+          </div>  
+            
+        </main>
+    </body>
+</html>
